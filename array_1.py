@@ -34,3 +34,12 @@ my_array_length = len(cars)
 array_string = 'The length of my array is'
 #problem 18. print array_string concatenated with my_array_length to the console.
 print(array_string + my_array_length)
+
+#for each
+#cars --> plural -- whole list 
+#car --> singular -- one element 
+element = 1
+print('=================')
+for car in cars: #len of list 
+    print(element, cars)
+    element += 1
